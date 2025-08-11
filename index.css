@@ -1,0 +1,52 @@
+header{
+    background-color: black;
+    padding: 20px;
+    
+}
+h1{
+    color: aliceblue;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+ul li {
+    display:inline;
+    padding: 50px;
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+}
+h1,ul,main{
+    text-align: center;
+}
+h2{
+    background-color: rgb(226, 226, 226);
+    font-size: 50px;
+    font-family: 'Courier New', monospace;
+}
+#Contact ul li{
+    color: black;
+display: flex;
+justify-content: center;
+margin: -60px;
+}
+ul li {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+header ul li:hover {
+   font-size: 25px;
+    transform: scale(1.1); 
+    color: #3498db; 
+}
+#Contact ul li:hover {
+   font-size: 25px;
+    transform: scale(1.1); 
+    color: #3498db; 
+}
+#About pre{
+    font-size: 15px;
+}
+#Home pre{
+    font-size: 20px;
+}
